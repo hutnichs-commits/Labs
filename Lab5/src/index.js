@@ -18,15 +18,10 @@ const array = () => {
     pop: () => data.pop(),   
   };
 };
-
 const arr = array();
-
 arr.push(10);
 arr.push(20);
-
 console.log(arr.get(0)); 
 console.log(arr.get(1)); 
-
 arr.pop();
-
 console.log(arr.get(1)); 
