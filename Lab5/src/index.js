@@ -8,8 +8,6 @@ const add5 = x => x + 5;
 const pipeline = seq(double)(add5);
 console.log(pipeline(3)); 
 
-
-
 const array = () => {
   const data = [];
   return {
@@ -25,3 +23,4 @@ console.log(arr.get(0));
 console.log(arr.get(1)); 
 arr.pop();
 console.log(arr.get(1)); 
+
