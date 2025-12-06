@@ -1,0 +1,11 @@
+{
+  "name": "Lab8",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "start": "node src/script.js",
+    "count": "echo \"Test count field of array\" && exit 1"
+  },
+  "packageManager": "yarn@4.9.2"
+}
+
